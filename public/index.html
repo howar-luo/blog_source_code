@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -45,27 +45,38 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
 
 
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
   <meta name="keywords" content="Hexo, NexT" />
@@ -74,7 +85,10 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Howar's Blog" type="application/atom+xml" />
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
 
 
 
@@ -82,11 +96,12 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Howar&#39;s Blog">
+<meta property="og:title" content="Howar&#39;s blog">
 <meta property="og:url" content="http://www.howar.cn/index.html">
-<meta property="og:site_name" content="Howar&#39;s Blog">
+<meta property="og:site_name" content="Howar&#39;s blog">
+<meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Howar&#39;s Blog">
+<meta name="twitter:title" content="Howar&#39;s blog">
 
 
 
@@ -94,15 +109,15 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    scheme: 'Mist',
+    version: '5.1.2',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn"}},
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -122,7 +137,7 @@
 
 
 
-  <title>Howar's Blog</title>
+  <title>Howar's blog</title>
   
 
 
@@ -134,7 +149,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -153,7 +168,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Howar's Blog</span>
+        <span class="site-title">Howar's blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -183,7 +198,27 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -193,7 +228,17 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
           </a>
         </li>
       
@@ -230,7 +275,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.howar.cn/2018/02/13/test/">
+    <link itemprop="mainEntityOfPage" href="http://www.howar.cn/2018/02/25/20180225_i_am_a_cpu/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Howar.luo">
@@ -239,7 +284,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Howar's Blog">
+      <meta itemprop="name" content="Howar's blog">
     </span>
 
     
@@ -249,7 +294,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/02/13/test/" itemprop="url">test</a></h1>
+                <a class="post-title-link" href="/2018/02/25/20180225_i_am_a_cpu/" itemprop="url">我是一个CPU：这个世界慢！死！了！</a></h1>
         
 
         <div class="post-meta">
@@ -259,10 +304,10 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-02-13T18:03:32+08:00">
-                2018-02-13
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-25T21:36:21+08:00">
+                2018-02-25
               </time>
             
 
@@ -301,7 +346,73 @@
       
         
           
-            
+            <table><br>   <tr><br>      <td>本文系转载。本文用形象生动的语言，和人类世界时间的类比，来分析在CPU眼里，其他的东西有多慢。对理解硬件和OS的层层CACHE机制，会有帮助。</td><br>   </tr><br></table>
+
+<h2 id="1-简介"><a href="#1-简介" class="headerlink" title="1. 简介"></a>1. 简介</h2><p>&emsp;&emsp;经常听到有人说磁盘很慢、网络很卡，这都是站在人类的感知维度去表述的，比如拷贝一个文件到硬盘需要几分钟到几十分钟，够我去吃个饭啦；而从网络下载一部电影，有时候需要几个小时，我都可以睡一觉了。</p>
+<p>&emsp;&emsp;最为我们熟知的关于计算机不同组件速度差异的图表，是下面这种金字塔形式：越往上速度越快，容量越小，而价格越高。这张图只是给了我们一个直观地感觉，并没有对各个速度和性能做出量化的说明和解释。而实际上，不同层级之间的差异要比这张图大的多。这篇文章就让你站在 CPU 的角度看这个世界，说说到底它们有多慢。</p>
+<p>&emsp;&emsp;希望你看到看完这篇文章能明白两件事情：磁盘和网络真的很慢，性能优化是个复杂的系统性的活。</p>
+<p>注：所有的数据都是来自这个地址(<a href="https://gist.github.com/hellerbarde/2843375)。所有的数据会因为机器配置不同，或者硬件的更新而有出入，但是不影响我们直觉的感受。如果对这些数据比较感兴趣，这个网址" target="_blank" rel="external">https://gist.github.com/hellerbarde/2843375)。所有的数据会因为机器配置不同，或者硬件的更新而有出入，但是不影响我们直觉的感受。如果对这些数据比较感兴趣，这个网址</a> (<a href="https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html)给出了不同年份一些指标的数值。" target="_blank" rel="external">https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html)给出了不同年份一些指标的数值。</a></p>
+<h2 id="2-数据"><a href="#2-数据" class="headerlink" title="2. 数据"></a>2. 数据</h2><ul>
+<li>先来看看 CPU 的速度，就拿我的电脑来说，主频是 2.6G，也就是说每秒可以执行 2.6*10^9 个指令，每个指令只需要 0.38ns（现在很多个人计算机的主频要比这个高，配置比较高的能达到 3.0G+）。我们把这个时间当做基本单位 1s，因为 1s 大概是人类能感知的最小时间单位。</li>
+</ul>
+<ul>
+<li>一级缓存读取时间为 0.5ns，换算成人类时间大约是 1.3s，大约一次或者两次心跳的时间。这里能看出缓存的重要性，因为它的速度可以赶上 CPU，程序本身的 locality 特性加上指令层级上的优化，cache 访问的命中率很高，这最终能极大提高效率。</li>
+</ul>
+<ul>
+<li>分支预测错误需要耗时 5ns，换算成人类时间大约是 13s，这个就有点久了，所以你会看到很多文章分析如何优化代码来降低分支预测的几率，比如这个得分非常高的 stackoverflow 问题(<a href="http://stackoverflow.com/questions/11227809/why-is-it-faster-to-process-a-sorted-array-than-an-unsorted-array)。" target="_blank" rel="external">http://stackoverflow.com/questions/11227809/why-is-it-faster-to-process-a-sorted-array-than-an-unsorted-array)。</a></li>
+</ul>
+<ul>
+<li>二级缓存时间就比较久了，大约在 7ns，换算成人类时间大约是 18.2s，可以看到的是如果一级缓存没有命中，然后去二级缓存读取数据，时间差了一个数量级。</li>
+</ul>
+<p><strong>小知识：</strong>为什么需要多层的 CPU 缓存呢？这篇文章通过一个通俗易懂的例子给出了讲解(<a href="https://fgiesen.wordpress.com/2016/08/07/why-do-cpus-have-multiple-cache-levels/)。" target="_blank" rel="external">https://fgiesen.wordpress.com/2016/08/07/why-do-cpus-have-multiple-cache-levels/)。</a></p>
+<ul>
+<li>我们继续，互斥锁的加锁和解锁时间需要 25ns，换算成人类时间大约是 65s，首次达到了一分钟。并发编程中，我们经常听说锁是一个很耗时的东西，因为在微波炉里加热一个东西需要一分钟的话，你要在那傻傻地等蛮久了。</li>
+</ul>
+<ul>
+<li>然后就到了内存，每次内存寻址需要 100ns，换算成人类时间是 260s，也就是4分多钟，如果读一些不需要太多思考的文章，这么久能读完2-3千字（这个快阅读的时代，很少人在手机上能静心多这么字了）。看起来还不算坏，不多要从内存中读取一段数据需要的时间会更多。到了内存之后，时间就变了一个量级，CPU 和内存之间的速度瓶颈被称为冯诺依曼瓶颈(<a href="https://en.wikipedia.org/wiki/Von_Neumann_architecture#Von_Neumann_bottleneck)。" target="_blank" rel="external">https://en.wikipedia.org/wiki/Von_Neumann_architecture#Von_Neumann_bottleneck)。</a></li>
+</ul>
+<ul>
+<li>一次 CPU 上下文切换（系统调用）需要大约 1500ns，也就是 1.5us（这个数字参考了这篇文章<a href="http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html，采用的是单核" target="_blank" rel="external">http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html，采用的是单核</a> CPU 线程平均时间），换算成人类时间大约是 65分钟，嗯，也就是一个小时。我们也知道上下文切换是很耗时的行为，毕竟每次浪费一个小时，也很让人有罪恶感的。上下文切换更恐怖的事情在于，这段时间里 CPU 没有做任何有用的计算，只是切换了两个不同进程的寄存器和内存状态；而且这个过程还破坏了缓存，让后续的计算更加耗时。</li>
+</ul>
+<ul>
+<li>在 1Gbps 的网络上传输 2K 的数据需要 20us，换算成人类时间是 14.4小时，这么久都能把《星球大战》六部曲看完了（甚至还加上吃饭撒尿的时间）！可以看到网络上非常少数据传输对于 CPU 来说，已经很漫长。而且这里的时间还是理论最大值，实际过程还要更慢一些。</li>
+</ul>
+<ul>
+<li>SSD 随机读取耗时为 150us，换算成人类时间大约是 4.5天。换句话说，SSD 读点数据，CPU 都能休假，报团参加周边游了。虽然我们知道 SSD 要比机械硬盘快很多，但是这个速度对于 CPU 来说也是像乌龟一样。I/O 设备从硬盘开始速度开始变得漫长，这个时候我们就想起内存的好处了。尽量减少 IO 设备的读写，把最常用的数据放到内存中作为缓存是所有程序的通识。像 memcached 和 redis 这样的高速缓存系统近几年的异军突起，就是解决了这里的问题。</li>
+</ul>
+<ul>
+<li>从内存中读取 1MB 的连续数据，耗时大约为 250us，换算成人类时间是 7.5天，这次假期升级到国庆七天国外游了。</li>
+</ul>
+<ul>
+<li>同一个数据中心网络上跑一个来回需要 0.5ms，换算成人类时间大约是 15天，也就是半个月的时间。如果你的程序有段代码需要和数据中心的其他服务器交互，在这段时间里 CPU 都已经狂做了半个月的运算。减少不同服务组件的网络请求，是性能优化的一大课题。</li>
+</ul>
+<ul>
+<li>从 SSD 读取 1MB 的顺序数据，大约需要 1ms，换算成人类时间是 1个月。也就是说 SSD 读一个普通的文件，如果要等你做完，CPU 一个月时间就荒废了。尽管如此，SSD 已经很快啦，不信你看下面机械磁盘的表现。</li>
+</ul>
+<ul>
+<li>磁盘寻址时间为 10ms，换算成人类时间是 10个月，刚好够人类创造一个新的生命了。如果 CPU 需要让磁盘泡杯咖啡，在它眼里，磁盘去生了个孩子，回来告诉它你让我泡的咖啡好了。机械硬盘使用 RPM(Revolutions Per Minute/每分钟转速) 来评估磁盘的性能：RPM 越大，平均寻址时间更短，磁盘性能越好。寻址只是把磁头移动到正确的磁道上，然后才能读取指定扇区的内容。换句话说，寻址虽然很浪费时间，但其实它并没有办任何的正事（读取磁盘内容）。</li>
+</ul>
+<ul>
+<li>从磁盘读取 1MB 连续数据需要 20ms，换算成人类时间是 20个月。IO 设备是计算机系统的瓶颈，希望读到这里你能更深切地理解这句话！如果还不理解，不妨想想你在网上买的东西，快递送了将近两年，你的心情是怎么样的。</li>
+</ul>
+<ul>
+<li>而从世界上不同城市网络上走一个来回，平均需要 150ms（参考世界各地 ping 报文的时间），换算成人类时间是 12.5年。不难理解，所有的程序和架构都会尽量避免不同城市甚至是跨国家的网络访问，CDN 就是这个问题的一个解决方案：让用户和最接近自己的服务器交互，从而减少网络上报文的传输时间。</li>
+</ul>
+<ul>
+<li>虚拟机重启一次大约要 4s 时间，换算成人类的时间是 3百多年。对于此，我想到了乔布斯要死命优化 Mac 系统开机启动时间的故事。如果机器能少重启而且每次启动能快一点，不仅能救人命，也能救 CPU 的命。</li>
+</ul>
+<ul>
+<li>物理服务器重启一次需要 5min，换算成人类时间是 2万5千年，快赶上人类的文明史了。5 分钟人类都要等一会了，更别提 CPU 了，所以没事不要乱重启服务器啊，分分钟终结一个文明的节奏。</li>
+</ul>
+<h2 id="3-参考资料"><a href="#3-参考资料" class="headerlink" title="3. 参考资料"></a>3. 参考资料</h2><ul>
+<li>What Every Programmer Should Know About Memory:<br><a href="https://www.akkadia.org/drepper/cpumemory.pdf" target="_blank" rel="external">https://www.akkadia.org/drepper/cpumemory.pdf</a></li>
+</ul>
+<ul>
+<li>Getting Physical With Memory:<br><a href="http://duartes.org/gustavo/blog/post/getting-physical-with-memory/" target="_blank" rel="external">http://duartes.org/gustavo/blog/post/getting-physical-with-memory/</a></li>
+</ul>
+<hr>
+<p>【完】</p>
+
           
         
       
@@ -349,7 +460,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.howar.cn/2018/02/13/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://www.howar.cn/2017/09/12/20170912_makefile_1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Howar.luo">
@@ -358,7 +469,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Howar's Blog">
+      <meta itemprop="name" content="Howar's blog">
     </span>
 
     
@@ -368,7 +479,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/02/13/hello-world/" itemprop="url">Hello World</a></h1>
+                <a class="post-title-link" href="/2017/09/12/20170912_makefile_1/" itemprop="url">初见Makefile</a></h1>
         
 
         <div class="post-meta">
@@ -378,10 +489,10 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-02-13T17:12:18+08:00">
-                2018-02-13
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-12T23:21:35+08:00">
+                2017-09-12
               </time>
             
 
@@ -420,15 +531,185 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+            <h2 id="1-makefile中包含什么"><a href="#1-makefile中包含什么" class="headerlink" title="1. makefile中包含什么"></a>1. makefile中包含什么</h2><p>&emsp;&emsp;Makefile中主要包含了五部分内容：显示规则、隐晦规则、变量定义、文件指示、注释。</p>
+<h3 id="1-1-显示规则"><a href="#1-1-显示规则" class="headerlink" title="1.1 显示规则"></a>1.1 显示规则</h3><p>&emsp;&emsp;显式规则说明了，如何生成一个或多个的目标文件。这是由Makefile的书写者明显指出，要生成的文件，文件的依赖文件，生成的命令。如下所示：</p>
+<pre><code>main.o : main.c defs.h
+    cc -c main.c
+</code></pre><p>&emsp;&emsp;显示的指出目标、目标的依赖、已经生成目标的命令。</p>
+<h3 id="1-2-隐晦规则"><a href="#1-2-隐晦规则" class="headerlink" title="1.2 隐晦规则"></a>1.2 隐晦规则</h3><p>&emsp;&emsp;GNU的make很强大，它可以自动推导文件以及文件依赖关系后面的命令，于是我们就没必要去在每一个[.o]文件后都写上类似的命令，因为，我们的make会自动识别，并自己推导命令。</p>
+<p>&emsp;&emsp;只要make看到一个[.o]文件，它就会自动的把[.c]文件加在依赖关系中，如果make找到一个whatever.o，那么whatever.c，就会是whatever.o的依赖文件。并且 cc -c whatever.c 也会被推导出来，于是，我们的makefile再也不用写得这么复杂。我们的是新的makefile又出炉了。</p>
+<p>&emsp;&emsp;所以，可以有一下makefile：</p>
+<pre><code>objects = main.o kbd.o command.o display.o insert.o search.o files.o utils.o
+
+edit : $(objects)
+    cc -o edit $(objects)
+
+main.o : defs.h
+kbd.o : defs.h command.h
+command.o : defs.h command.h
+display.o : defs.h buffer.h
+insert.o : defs.h buffer.h
+search.o : defs.h buffer.h
+files.o : defs.h buffer.h command.h
+utils.o : defs.h
+</code></pre><h3 id="1-3-变量定义"><a href="#1-3-变量定义" class="headerlink" title="1.3 变量定义"></a>1.3 变量定义</h3><p>&emsp;&emsp;如上一小节中的“objects”即为定义的变量。</p>
+<p>&emsp;&emsp;而Makefile中定义变量有四种方式：</p>
+<p>&emsp;&emsp;<strong>立即赋值</strong>：a:=b。会立即计算b的值，并赋值给a。如：</p>
+<pre><code>var1:=$(var2) bar
+var2:=foo
+</code></pre><p>&emsp;&emsp;则var1的值就为”bar”。</p>
+<p>&emsp;&emsp;<strong>延迟赋值</strong>：a=b。相当于C++和java的引用。如果后面b的值改变了，那么a的值也会改变。如：</p>
+<pre><code>var1=$(var2) bar
+var2:=foo
+</code></pre><p>&emsp;&emsp;var1的值就为”foo bar”。</p>
+<p>&emsp;&emsp;<strong>条件赋值</strong>：a?=b。如果a没有定义，则相当于a=b ，否则不执行任何操作。</p>
+<p>&emsp;&emsp;<strong>附加赋值</strong>：a+=b。将b的值添加到a原有的值后面，再赋值给a。如：</p>
+<pre><code>var1=func1.o func2.0
+var2+=$(var1) func3.o
+</code></pre><p>&emsp;&emsp;则var2的值为”func1.o func2.o func3.o”。</p>
+<h3 id="1-4-文件指示"><a href="#1-4-文件指示" class="headerlink" title="1.4 文件指示"></a>1.4 文件指示</h3><p>&emsp;&emsp;主要分三部分：</p>
+<p>&emsp;&emsp;a. 在makefile中引用另一个makefile，就像c语言中的include一样；</p>
+<p>&emsp;&emsp;b. 根据某些情况指定Makefile中的有效部分，就像C语言中的预编译#if一样；</p>
+<p>&emsp;&emsp;c. 定义一个多行的命令。</p>
+<h3 id="1-5-注释"><a href="#1-5-注释" class="headerlink" title="1.5 注释"></a>1.5 注释</h3><p>&emsp;&emsp;Makefile中只有行注释，和UNIX的Shell脚本一样，其注释是用“#”字符，这个就像C/C++中的“//”一样。如果你要在你的Makefile中使用“#”字符，可以用反斜框进行转义，如：“/#”。</p>
+<hr>
+<p>【完】</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.howar.cn/2017/08/27/20170905_input_output_error/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Howar.luo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Howar's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/08/27/20170905_input_output_error/" itemprop="url">Linux shell标准输入/输出/错误重定向</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-27T14:55:17+08:00">
+                2017-08-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="1-什么是文件描述符"><a href="#1-什么是文件描述符" class="headerlink" title="1. 什么是文件描述符"></a>1. 什么是文件描述符</h2><p>&emsp;&emsp;文件描述符即file descriptor，是内核为了高效管理已经被打开的文件所创建的索引。它是一个非负整数，用于指被打开的文件。所有执行I/O操作的系统调用都是通过文件描述符。</p>
+<p>&emsp;&emsp;程序刚刚启动时，默认分配文件描述符0为标准输入、1为标准输出、2为标准错误。</p>
+<h2 id="2-文件重定向"><a href="#2-文件重定向" class="headerlink" title="2. 文件重定向"></a>2. 文件重定向</h2><h3 id="2-1-标准输出重定向"><a href="#2-1-标准输出重定向" class="headerlink" title="2.1 标准输出重定向"></a>2.1 标准输出重定向</h3><p>&emsp;&emsp;标准输出重定向，使用符号“&gt;”,它表示程序输出至文件。该符号右侧文件若存在，则清空文件中的内容，并将新的内容输入至该文件；该符号右侧文件若存在，则首先创建该文件，并将新的内容输入至该文件。</p>
+<p>&emsp;&emsp;而重定向符号“&gt;&gt;”则表示追加的意思。</p>
+<p>&emsp;&emsp;值得注意的是，“&gt;file”其实是”1&gt;file”的效果。</p>
+<h3 id="2-2-标准错误重定向"><a href="#2-2-标准错误重定向" class="headerlink" title="2.2 标准错误重定向"></a>2.2 标准错误重定向</h3><p>&emsp;&emsp;标准错误重定向跟标准输出重定向其实是类似的，只是重定向符号前面的文件描述符（2）不能省略，即：2&gt;file</p>
+<h3 id="2-3-标准输入重定向"><a href="#2-3-标准输入重定向" class="headerlink" title="2.3 标准输入重定向"></a>2.3 标准输入重定向</h3><p>&emsp;&emsp;使用符号“&lt;”。举个简单的例子，就知道怎么用了。</p>
+<p>&emsp;&emsp;假设当前路径下有两个文件：file1、file2。其中，file1中为空，file2中有内容：stdin test。</p>
+<p>&emsp;&emsp;在shell下输入命令：cat &gt;file1，则shell会等待用户输入内容，该内容会输入file1中。但是如果在shell下输入命令：cat &gt;file1 &lt;file2,则shell将file2中的内容输入进file1中。</p>
+<h2 id="3-高级用法"><a href="#3-高级用法" class="headerlink" title="3. 高级用法"></a>3. 高级用法</h2><h3 id="3-1-“-gt-dev-null-2-gt-amp-1”是啥意思"><a href="#3-1-“-gt-dev-null-2-gt-amp-1”是啥意思" class="headerlink" title="3.1 “&gt;/dev/null 2&gt;&amp;1”是啥意思"></a>3.1 “&gt;/dev/null 2&gt;&amp;1”是啥意思</h3><p>&emsp;&emsp;将标准输出重定向到设备/dev/null中，并且标准错误“像标准输出一样”重定向到/dev/null中。</p>
+<h3 id="3-2-“-gt-dev-null-2-gt-1”是啥意思"><a href="#3-2-“-gt-dev-null-2-gt-1”是啥意思" class="headerlink" title="3.2 “&gt;/dev/null 2&gt;1”是啥意思"></a>3.2 “&gt;/dev/null 2&gt;1”是啥意思</h3><p>&emsp;&emsp;将标准输出重定向到设备/dev/null中，将标准错误重定向到文件名为1的文件中。</p>
+<h3 id="3-3-“-gt-file-2-gt-file1”和“-gt-file-2-gt-amp-1”有啥区别"><a href="#3-3-“-gt-file-2-gt-file1”和“-gt-file-2-gt-amp-1”有啥区别" class="headerlink" title="3.3 “&gt;file 2&gt;file1”和“&gt;file 2&gt;&amp;1”有啥区别"></a>3.3 “&gt;file 2&gt;file1”和“&gt;file 2&gt;&amp;1”有啥区别</h3><p>&emsp;&emsp;前者会打开两次文件file，这样stdout和stderr会互相覆盖，这样相当于使用了FD1和FD2两个同时去抢占file的管道；</p>
+<p>&emsp;&emsp;而后者中，stderr继承了FD1管道后，再被送往file，此时file只被打开一次，只使用了一个管道FD1，因此不存在覆盖的问题。</p>
+<h3 id="3-4-“-gt-file-2-gt-amp-1”和“2-gt-amp-1-gt-file”有啥区别"><a href="#3-4-“-gt-file-2-gt-amp-1”和“2-gt-amp-1-gt-file”有啥区别" class="headerlink" title="3.4 “&gt;file 2&gt;&amp;1”和“2&gt;&amp;1 &gt;file”有啥区别"></a>3.4 “&gt;file 2&gt;&amp;1”和“2&gt;&amp;1 &gt;file”有啥区别</h3><p>&emsp;&emsp;如上分析，前一个命令表示：标准输入和标准错误通过同一个管道重定向到file中。</p>
+<p>&emsp;&emsp;后一个命令无法达到这种效果，应该2&gt;&amp;1是标准错误拷贝了标准输出的行为，但此时标准输出还是在终端，&gt;file后才被重定向到file，所以其标准错误最终仍然保持在终端。</p>
+<hr>
+<p>【完】</p>
 
           
         
@@ -495,38 +776,25 @@
 
       
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <p class="site-author-name" itemprop="name">Howar.luo</p>
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="Howar.luo" />
+          <p class="site-author-name" itemprop="name">Howar.luo</p>
+           
               <p class="site-description motion-element" itemprop="description"></p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives/">
-              
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">Artikel</span>
-                </a>
-              </div>
-            
-
-            
-
-            
-
-          </nav>
+          
+        </div>
+        <nav class="site-state motion-element">
 
           
-            <div class="feed-link motion-element">
-              <a href="/atom.xml" rel="alternate">
-                <i class="fa fa-rss"></i>
-                RSS
+            <div class="site-state-item site-state-posts">
+            
+              <a href="/archives/">
+            
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
@@ -534,14 +802,24 @@
           
 
           
-          
 
-          
-          
+        </nav>
 
-          
+        
 
+        <div class="links-of-author motion-element">
+          
         </div>
+
+        
+        
+
+        
+        
+
+        
+
+
       </section>
 
       
@@ -558,9 +836,12 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Howar.luo</span>
 
@@ -568,17 +849,11 @@
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
-
-
+  <div class="powered-by">由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
   <span class="post-meta-divider">|</span>
 
-
-
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
-
-
+  <div class="theme-info">主题 &mdash; <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.2</div>
 
 
         
@@ -598,8 +873,6 @@
         <i class="fa fa-arrow-up"></i>
         
       </div>
-    
-
     
 
   </div>
@@ -634,54 +907,46 @@
 
 
   
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
 
 
 
   
   
 
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
 
   
 
+  
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
 
 
 
@@ -714,10 +979,6 @@
 
 
 
-
-
-
-
   
 
 
@@ -728,9 +989,6 @@
 
   
 
-  
-
-  
   
 
   
